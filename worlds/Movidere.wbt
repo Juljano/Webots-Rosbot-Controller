@@ -1,0 +1,280 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/kitchen/fridge/protos/Fridge.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/kitchen/oven/protos/Oven.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/living_room_furniture/protos/Sofa.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/tables/protos/Table.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/chairs/protos/WoodenChair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/television/protos/Television.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/animals/protos/Cat.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/lights/protos/FloorLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/cabinet/protos/Cabinet.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/living_room_furniture/protos/Armchair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/bedroom/protos/Bed.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/shapes/protos/TexturedBoxShape.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/husarion/rosbot/protos/Rosbot.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.27192056331308145 0.008978160011402763 -0.962277818454892 3.0780594465688025
+  position 6.502081467741527 -2.7852324632667758 4.0001333156030565
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 10 10
+}
+TexturedBoxShape {
+}
+Bed {
+  translation -3.4 -2.95 0
+}
+Armchair {
+  translation 2.44 3.92 0
+  rotation 0 0 1 -1.5707953071795862
+}
+Cabinet {
+  hidden position_6_0 4.9900412379940295e-05
+  hidden translation_7 -9.930182059487006e-06 -2.477601734884871e-10 0
+  hidden rotation_7 0 0 0.9999999999999999 4.990040913983192e-05
+  hidden position_10_0 -4.459997536943697e-05
+  hidden translation_11 -7.544085831239194e-06 1.6823314963332336e-10 0
+  hidden rotation_11 0 0 -1 4.4599979502169e-05
+  hidden translation_15 0 0 0
+  hidden translation_23 0 0 0
+  hidden translation_31 0 0 0
+  hidden translation_39 0 0 0
+  translation 4.77 -3.13 0
+  rotation 0 0 1 3.14159
+}
+FloorLight {
+  translation 4.08 0.23 0
+}
+FloorLight {
+  translation 4.08 3.78 0
+  name "floor light(1)"
+}
+WoodenChair {
+  translation -0.13 2.54 0
+  rotation 0 0 1 3.14159
+}
+WoodenChair {
+  translation -0.06 1.65 0
+  rotation 0 0 1 3.14159
+  name "wooden chair(4)"
+}
+WoodenChair {
+  translation -1.32 2.57 0
+  name "wooden chair(3)"
+}
+WoodenChair {
+  translation -1.32 1.63 0
+  name "wooden chair(5)"
+}
+Table {
+  translation -0.57 2.12 0
+}
+Oven {
+  hidden position_0_0 1.5000480575174
+  hidden translation_1 0.20353446322266808 0 0.14012508075467583
+  hidden rotation_1 0 1 0 1.5000480575174
+  translation 4.58 -2.14 0
+}
+Fridge {
+  hidden position_0_0 -0.00018434032402669947
+  hidden position_0_1 0.0001843380100361108
+  hidden translation_1 0.36 0.34 1.55
+  hidden rotation_1 0 0 -1 0.0001843403228898374
+  hidden translation_2 0.36 0.34 0.65
+  hidden rotation_2 0 0 1 0.0001843380101656883
+  translation 4.36 -4.38 0
+}
+Wall {
+  translation 4.87 -4.22 0
+  name "wall(10)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation 4.9 -2.75 0
+  name "wall(11)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation 4.9 -1.25 0
+  name "wall(12)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation 4.05 -0.53 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(29)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation 2.56 -0.53 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(30)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation 4.89 0.23 0
+  name "wall(13)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation 4.89 1.73 0
+  name "wall(14)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation 4.88 3.22 0
+  name "wall(15)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation 4.87 4.28 0
+  name "wall(16)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation 4.02 4.93 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(23)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation 2.55 4.93 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(24)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation 1.07 4.93 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(25)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation -0.37 4.93 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(26)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation -1.85 4.93 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(27)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation -3.53 4.93 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(28)"
+  size 0.2 2.5 2.4
+}
+Wall {
+  translation -4.86 2.52 0
+  name "wall(2)"
+}
+Wall {
+  translation -4.86 1.53 0
+  name "wall(3)"
+}
+Wall {
+  translation -4.86 0.55 0
+  name "wall(4)"
+}
+Wall {
+  translation -4.86 -0.42 0
+  name "wall(5)"
+}
+Wall {
+  translation -4.86 -1.36 0
+  name "wall(6)"
+}
+Wall {
+  translation -4.86 -2.28 0
+  name "wall(7)"
+}
+Wall {
+  translation -4.86 -3.25 0
+  name "wall(8)"
+}
+Wall {
+  translation -4.86 -4.22 0
+  name "wall(9)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation -4.02 -4.89 0
+  rotation 0 0 -1 1.5708
+  name "wall(17)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation -2.54 -4.89 0
+  rotation 0 0 -1 1.5708
+  name "wall(18)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation -1.05 -4.89 0
+  rotation 0 0 -1 1.5708
+  name "wall(19)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation 0.41 -4.89 0
+  rotation 0 0 -1 1.5708
+  name "wall(20)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation 1.89 -4.89 0
+  rotation 0 0 -1 1.5708
+  name "wall(21)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation 3.52 -4.89 0
+  rotation 0 0 -1 1.5708
+  name "wall(22)"
+  size 0.2 2.5 2.4
+}
+Wall {
+  translation -4.86 4.51 0
+}
+Wall {
+  translation -4.86 3.52 0
+  name "wall(1)"
+}
+Sofa {
+  translation 4.23 1.99 0
+  rotation 0 0 1 3.14159
+}
+Television {
+  translation 1.73 1.94 0.97
+}
+Cat {
+  translation 2.42 0 0
+}
+Rosbot {
+  hidden translation_2 0.05 0.11 0.043
+  hidden rotation_2 0 1 0 1.8831350705128909
+  hidden translation_3 0.05 -0.11 0.043
+  hidden rotation_3 0 -1 0 4.831089568903026
+  hidden translation_4 -0.055 0.11 0.043
+  hidden rotation_4 0 1 0 1.8599572241511717
+  hidden translation_5 -0.055 -0.11 0.043
+  hidden rotation_5 0 -1 0 4.828195012340069
+  translation -0.470673 -1.60028 -0.0504311
+  rotation -0.11928034016084801 -0.25666962766038154 -0.9591104747044489 1.0670221898807415
+  controller "Rosbot-Controller"
+}
