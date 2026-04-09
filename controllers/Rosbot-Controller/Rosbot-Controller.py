@@ -50,9 +50,10 @@ if __name__ == '__main__':
 
 while controller.step(controller.timestep) != -1:
         print("Starte Rosbot")
-        fl_motor.setVelocity(25) #links
-        fr_motor.setVelocity(0) #rechts
-        rl_motor.setVelocity(15)
-        rri_motor.setVelocity(15)
+        fl_motor.setVelocity(5)     # links vorne  (langsamer)
+        fr_motor.setVelocity(15)    # rechts vorne (schneller)
+
+        rl_motor.setVelocity(5)     # links hinten  (langsamer)
+        rri_motor.setVelocity(15)   # rechts hinten (schneller)
 
         image = camera_rgb.getImage()
