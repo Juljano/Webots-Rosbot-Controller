@@ -1,4 +1,6 @@
 from controller import Robot, Camera, Motor
+import numpy as np
+import cv2
 
 """
 fr_motor = fr_wheel_joint
@@ -37,6 +39,20 @@ class Controller(Robot):
             print(f"Der Motor {motor_name} konnte nicht aktiviert oder gefunden werden")
 
 
+def take_photos(camera_name):
+    try:
+        width = camera_name.getWeight()
+        height = camera_name.getHeight()
+        image = camera_name.getImage()
+        img_array = np.frombuffer(image, dtype=np.uint8).reshape((height, width, 4))
+        save_image = cv2.cvtColor(img_array, cv2.COLOR_RGBA2BGR)
+        cv2.imwrite("aufnahme.png", save_image)
+    except Exception as e:
+        print(F"Es konnte kein Foto aufgenommen werden. Kamera:{camera_name} - Fehler:{e}")
+
+
+
+
 if __name__ == '__main__':
 
     controller = Controller()
@@ -56,4 +72,4 @@ while controller.step(controller.timestep) != -1:
         rl_motor.setVelocity(5)     # links hinten  (langsamer)
         rri_motor.setVelocity(15)   # rechts hinten (schneller)
 
-        image = camera_rgb.getImage()
+        take_photos(camera_depth)
