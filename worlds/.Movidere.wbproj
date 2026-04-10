@@ -5,7 +5,7 @@ sceneTreePerspectives: 000000ff000000010000000300000022000004ad000000fa010000000
 maximizedDockId: -1
 centralWidgetVisible: 1
 orthographicViewHeight: 1
-textFiles: 0 "controllers/Rosbot-Controller/Rosbot-Controller.py."
+textFiles: 0 "controllers/Rosbot-Controller/Rosbot-Controller.py"
 consoles: Console:All:All
 renderingDevicePerspectives: rosbot:camera depth;1;0.895833;0;0
 renderingDevicePerspectives: rosbot:camera rgb;1;0.895833;0;0
