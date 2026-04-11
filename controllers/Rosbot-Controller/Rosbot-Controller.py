@@ -65,11 +65,11 @@ if __name__ == '__main__':
 
 
 while controller.step(controller.timestep) != -1:
-        print("Starte Rosbot")
         fl_motor.setVelocity(5)     # links vorne  (langsamer)
         fr_motor.setVelocity(15)    # rechts vorne (schneller)
 
         rl_motor.setVelocity(5)     # links hinten  (langsamer)
         rri_motor.setVelocity(15)   # rechts hinten (schneller)
 
-        take_photos(camera_depth)
+        #take_photos(camera_depth)
+
